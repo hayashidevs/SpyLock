@@ -2,7 +2,7 @@
 # Roadmap for SpyLock: Anonymous Messenger
 
 ## Overview
-SpyLock is an anonymous messenger designed to ensure secure, peer-to-peer encrypted communication leveraging blockchain web3 technology. The application will be divided into two separate projects: the Client Side and the Server Side. Both projects will use PostgreSQL for the database. The application will feature advanced security measures, including RSA key encryption for message security and blockchain integration for data integrity and decentralized features.
+SpyLock is an anonymous messenger designed to ensure secure, peer-to-server-to-peer encrypted communication leveraging blockchain web3 technology. The application will be divided into two separate projects: the Client Side and the Server Side. Both projects will use PostgreSQL for the database. The application will feature advanced security measures, including RSA key encryption for message security and blockchain integration for data integrity and decentralized features.
 
 ## Table of Contents
 1. Project Structure
