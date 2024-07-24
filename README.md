@@ -16,16 +16,16 @@ SpyLock is an anonymous messenger designed to ensure secure, peer-to-peer encryp
 
 ### Client Side
 - **Project Name:** SpyLockClient
-- **Purpose:** Handles user registration, login, message encryption/decryption, and storage of keys and dialogues. It also provides a web-based user interface for user interaction.
+- **Purpose:** Provides a web-based user interface for user interaction, including registration, login, and messaging. Handles message encryption/decryption and storage of keys and dialogues.
 - **Technologies:** Django, PostgreSQL, RSA, Web3.py, HTML/CSS, JavaScript
 
 ### Server Side
 - **Project Name:** SpyLockServer
-- **Purpose:** Manages encrypted message transmission between users.
+- **Purpose:** Handles registration, login, user search by nickname, and manages encrypted message transmission between users.
 - **Technologies:** Django, PostgreSQL, RSA, Web3.py, REST API
 
 ## 2. Key Features
-- **User Registration and Login:** Secure registration using username and password.
+- **User Registration and Login:** Secure registration using username and password. Handled by the server side, but accessible via the client-side web interface.
 - **Encrypted P2P Messaging:** Messages are encrypted using RSA before transmission.
 - **Blockchain Integration:** Utilize blockchain for secure, decentralized message verification and storage.
 - **Database:** PostgreSQL for robust and scalable data management.
@@ -36,7 +36,7 @@ SpyLock is an anonymous messenger designed to ensure secure, peer-to-peer encryp
 ### Phase 1: Initial Setup and Basic Functionality
 - Set up Django projects for Client and Server sides.
 - Configure PostgreSQL databases.
-- Implement user registration and login functionality.
+- Implement user registration and login functionality on the server side, accessible via the client side.
 
 ### Phase 2: Implement Messaging System
 - Develop P2P encrypted messaging system.
