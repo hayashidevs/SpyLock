@@ -16,7 +16,7 @@ SpyLock is an anonymous messenger designed to ensure secure, peer-to-peer encryp
 
 ### Client Side
 - **Project Name:** SpyLockClient
-- **Purpose:** Handles user registration, login, message encryption/decryption, and storage of keys and dialogues.
+- **Purpose:** Handles user registration, login, message encryption/decryption, and storage of keys and dialogues. It also provides a web-based user interface for user interaction.
 - **Technologies:** Django, PostgreSQL, RSA, Web3.py, HTML/CSS, JavaScript
 
 ### Server Side
@@ -29,6 +29,7 @@ SpyLock is an anonymous messenger designed to ensure secure, peer-to-peer encryp
 - **Encrypted P2P Messaging:** Messages are encrypted using RSA before transmission.
 - **Blockchain Integration:** Utilize blockchain for secure, decentralized message verification and storage.
 - **Database:** PostgreSQL for robust and scalable data management.
+- **Web UI:** A user-friendly web interface for registration, login, and messaging.
 
 ## 3. Development Phases
 
@@ -42,11 +43,15 @@ SpyLock is an anonymous messenger designed to ensure secure, peer-to-peer encryp
 - Implement RSA encryption/decryption.
 - Integrate Web3 for blockchain functionality.
 
-### Phase 3: Security Enhancements
+### Phase 3: Develop Web UI
+- Create web interface for user registration, login, and messaging.
+- Implement profile settings to update nickname.
+
+### Phase 4: Security Enhancements
 - Implement advanced security measures (e.g., RSA key management, data integrity checks).
 - Conduct security audits and testing.
 
-### Phase 4: Deployment and Testing
+### Phase 5: Deployment and Testing
 - Deploy the application on a cloud platform.
 - Perform extensive testing (unit, integration, and security testing).
 
@@ -62,6 +67,7 @@ SpyLock is an anonymous messenger designed to ensure secure, peer-to-peer encryp
 - `id` (Primary Key)
 - `username` (Unique)
 - `password` (Hashed)
+- `nickname` (Unique)
 
 ### Messages Table
 - `id` (Primary Key)
@@ -85,4 +91,3 @@ SpyLock is an anonymous messenger designed to ensure secure, peer-to-peer encryp
 - HTML/CSS
 - JavaScript
 - Docker (for deployment)
-
