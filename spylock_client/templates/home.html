@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h2>Messages</h2>
+    <ul>
+        {% for message in messages %}
+            <li>{{ message.content }} (from {{ message.sender }})</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
